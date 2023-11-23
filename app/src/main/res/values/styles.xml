@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/bebasneue</item>
+    </style>
+
+    <style name="CalendarDateTextAppearance" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textColor">@color/black</item>
+        <!-- Add more styling attributes if needed -->
+    </style>
+
+    <style name="CalendarWeekDayTextAppearance" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textColor">@color/black</item>
+        <!-- Add more styling attributes if needed -->
+    </style>
+
+
+
+</resources>

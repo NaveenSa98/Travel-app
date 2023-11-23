@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".NpPlaces.WilpattuParkActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ExtraText">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_E"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/rectangle_20_color"
+            android:elevation="4dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Travel Mate"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/playfairdisplay"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+
+
+
+            <ImageButton
+                android:id="@+id/backButton_E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/backbtn"
+                android:background="@color/rectangle_20_color"
+                android:contentDescription="Back"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <TextView
+            android:id="@+id/pageName_E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/bebasneue"
+            android:text="Wilpattu National Park "
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageSliderFrame_E"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.034"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_E" />
+
+        <FrameLayout
+            android:id="@+id/imageSliderFrame_E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/pageName_E">
+
+            <!-- Image Slider -->
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider_E"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border_1" />
+            </com.denzcoskun.imageslider.ImageSlider>
+
+
+        </FrameLayout>
+
+
+        <ImageButton
+            android:id="@+id/imageButtonX_E"
+            android:layout_width="57dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@null"
+            android:src="@drawable/placemarke"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageSliderFrame_E" />
+
+        <TextView
+            android:id="@+id/placeDescription_E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:fontFamily="@font/bebasneue"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonX_E"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Description Details -->
+
+        <TextView
+            android:id="@+id/placeDescriptionDetails_E"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/cardob_4"
+            android:text="Your description details here."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/placeDescription_E" />
+
+        <!-- Journey to Place Text -->
+
+        <TextView
+            android:id="@+id/journeyToPlace_E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Journey to Wilpattu"
+            android:fontFamily="@font/bebasneue"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/placeDescriptionDetails_E"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Journey To Place Details -->
+        <TextView
+            android:id="@+id/journeyToPlaceDetails_E"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/cardob_4"
+            android:text="Your journey details here."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/journeyToPlace_E" />
+
+
+        <TextView
+
+            android:id="@+id/textView5_E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bebasneue"
+            android:text="For emergencies"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/journeyToPlaceDetails_E" />
+
+        <ImageButton
+            android:id="@+id/hospitalButton_E"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:src="@drawable/hospitalmarker"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5_E" />
+
+        <ImageButton
+            android:id="@+id/policeStationButton_E"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:src="@drawable/policemarker"
+            app:layout_constraintStart_toEndOf="@+id/hospitalButton_E"
+            app:layout_constraintTop_toBottomOf="@+id/textView5_E" />
+
+
+        <Button
+            android:id="@+id/accommodationButton_E"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/green_2"
+            android:fontFamily="@font/bebasneue"
+            android:text="Find Accommodation"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.88"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/journeyToPlaceDetails_E" />
+
+
+        <TextView
+            android:id="@+id/reviewTitle_E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/bebasneue"
+            android:text="Write a Review"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accommodationButton_E" />
+
+        <FrameLayout
+            android:id="@+id/reviewContainer_E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/card_border"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reviewTitle_E">
+
+            <RatingBar
+                android:id="@+id/ratingBar_E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                android:numStars="5"
+                android:progressBackgroundTint="@color/black"
+                android:progressTint="@color/green_2" />
+
+            <EditText
+                android:id="@+id/nameInput_E"
+                android:layout_width="292dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="9dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="40dp"
+                android:background="@color/green_2"
+                android:hint="Your Name"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ratingBar_E" />
+            <EditText
+                android:id="@+id/reviewInput_E"
+                android:layout_width="298dp"
+                android:layout_height="97dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/green_2"
+                android:hint="Type the review here..."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nameInput_E" />
+            <Button
+                android:id="@+id/submitReviewButton_E"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginEnd="115dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/green_2"
+                android:fontFamily="@font/bebasneue"
+                android:text="Submit"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/reviewInput_E" />
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/reviewsTitle_E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/bebasneue"
+            android:text="Reviews"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reviewContainer_E" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reviewRecyclerView_E"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reviewsTitle_E"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <View
+            android:id="@+id/spaceAfterFrameLayout_E"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/reviewRecyclerView_E" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

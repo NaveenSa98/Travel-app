@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#19000000</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorAccent">#8BC34A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_green">#77FFCC</color>
+    <color name="rectangle_20_color">#A3FFCE</color>
+    <color name="green_2">#00FD92</color>
+    <color name="log_in_color">#000000</color>
+    <color name="ellipse_2_color">#A3FFCE</color>
+    <color name="night_colorPrimary">#0D47A1</color>
+    <color name="night_colorPrimaryDark">#002171</color>
+    <color name="night_colorAccent">#FF4081</color>
+
+</resources>

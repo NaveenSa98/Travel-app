@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="@color/light_green"
+    app:cardBackgroundColor="@color/black"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="4dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:background="@drawable/card_border" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/placeImageView"
+            android:layout_width="153dp"
+            android:layout_height="142dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="43dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/placeNameTextView"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toRightOf="@id/placeImageView"
+            android:fontFamily="@font/playfairdisplay"
+            android:text="Place Name"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/placeDistrictTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/placeNameTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/placeImageView"
+            android:text="District"
+            android:textSize="16sp"
+            android:fontFamily="@font/bebasneue"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/weatherDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/placeDistrictTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/placeImageView"
+            android:text="Weather: "
+            android:fontFamily="@font/bebasneue"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/temperatureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weatherDescriptionTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/placeImageView"
+            android:text="Temperature: "
+            android:fontFamily="@font/bebasneue"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

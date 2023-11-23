@@ -1,0 +1,41 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Travel_Mate" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/light_green</item>
+        <item name="android:statusBarColor">@color/light_green</item>
+    </style>
+
+
+    <style name="Theme.Travel_Mate" parent="Base.Theme.Travel_Mate" />
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.navTheme">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="nightModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorSwitchThumbNormal">#FFFFFF</item>
+        <item name="android:foreground">#99FFFFFF</item>
+    </style>
+
+    <style name="SCREEN">
+        <item name="android:background">#FFF</item>
+    </style>
+    
+    <style name="TEXT">
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="BUTTON">
+        <item name="android:background">@color/rectangle_20_color</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    
+</resources>

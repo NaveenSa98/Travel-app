@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Travel_Mate" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#0A000000</item>
+        <item name="android:statusBarColor">#08000000</item>
+    </style>
+
+
+    <style name="nightModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorSwitchThumbNormal">@color/colorPrimaryDark</item>
+        <item name="android:foreground">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="SCREEN">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TEXT">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+
+    <style name="BUTTON">
+        <item name="android:background">@color/rectangle_20_color</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="Theme.Travel_Mate_NightMode" parent="Base.Theme.Travel_Mate">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">#0A000000</item>
+        <item name="android:statusBarColor">#0A000000</item>
+    </style>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "195514433694",
+    "firebase_url": "https://travel-mate-44e09-default-rtdb.firebaseio.com",
+    "project_id": "travel-mate-44e09",
+    "storage_bucket": "travel-mate-44e09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195514433694:android:bad166aa3a7b14b82afb8f",
+        "android_client_info": {
+          "package_name": "com.example.travel_mate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195514433694-keen2v7ovq0c35herjriemts7tb6e5c2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travel_mate",
+            "certificate_hash": "95895b41c492af3aa61d9fe222b04e6fa3832da6"
+          }
+        },
+        {
+          "client_id": "195514433694-0jv1tme4nspn7m7itmuco21q0i42moe6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUr0toXUTocodse0_c6vtm3CX_5fl1V8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195514433694-0jv1tme4nspn7m7itmuco21q0i42moe6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
