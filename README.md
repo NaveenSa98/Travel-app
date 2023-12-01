@@ -8,19 +8,18 @@ However, during these journeys, they often faced challenges finding reliable tra
 ## Key Features
 1. Comprehensive Destination Insights
 2. Interactive Google Maps Integration
---Accommodation Recommendations
---Unravel Transportation Options
---Empowering Traveler Reviews 
---Users can specify a destination
---Displays the nearest emergency location to their location.
+3. Accommodation Recommendations
+4. Unravel Transportation Options
+5. Empowering Traveler Reviews 
+6. Users can specify a destination
+7. Displays the nearest emergency location to their location.
 
 ## Technologies Used
---Android Studio IDE
---Firebase 
---Java
---Figma UI/UX Design
---Google Maps API
---Other relevant libraries
+1. Android Studio IDE
+2. Firebase Database System and Authentication System
+3. Figma UI/UX Design
+4. Google Maps API
+5. Other relevant libraries
 
 ![image](https://github.com/NaveenSa98/Travel-app/assets/140111923/d16934b1-7e64-4b7d-b041-56485da8b419)
 
