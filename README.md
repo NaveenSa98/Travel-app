@@ -6,8 +6,8 @@ Welcome to the Travel Mate app, the one-stop mobile application designed to enha
 However, during these journeys, they often faced challenges finding reliable travel information, navigating unfamiliar locations, and discovering new destinations. From this app, every traveler can get a seamless, informative, and personalized experience during their journeys.
 
 ## Key Features
---Comprehensive Destination Insights
---Interactive Google Maps Integration
+1. Comprehensive Destination Insights
+2. Interactive Google Maps Integration
 --Accommodation Recommendations
 --Unravel Transportation Options
 --Empowering Traveler Reviews 
