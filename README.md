@@ -1,11 +1,11 @@
 # Travel-Mate
-##Travel App
+## Travel App
 
-##Overview
+## Overview
 Welcome to the Travel Mate app, the one-stop mobile application designed to enhance the travel experience for both local and foreign adventurers. As a traveler, They have always been passionate about exploring new destinations and places in Sri Lanka.
 However, during these journeys, they often faced challenges finding reliable travel information, navigating unfamiliar locations, and discovering new destinations. From this app, every traveler can get a seamless, informative, and personalized experience during their journeys.
 
-##Key Features
+## Key Features
 --Comprehensive Destination Insights
 --Interactive Google Maps Integration
 --Accommodation Recommendations
@@ -14,7 +14,7 @@ However, during these journeys, they often faced challenges finding reliable tra
 --Users can specify a destination
 --Displays the nearest emergency location to their location.
 
-##Technologies Used
+## Technologies Used
 --Android Studio IDE
 --Firebase 
 --Java
